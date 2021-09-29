@@ -7,13 +7,13 @@ const HomePage = () => {
         <form>
           <button type="button">
             <a>
-              <img className="btn-header" src="/menu.png" />
+              <img className="btn-header" src="/menu.png" alt="icon" />
             </a>
           </button>
           <input placeholder="Telusiri dalam email" />
           <Link href="akun">
             <a>
-              <img className="profile-header" src="/profile.png" />
+              <img className="profile-header" src="/profile.png" alt="icon" />
             </a>
           </Link>
         </form>
@@ -23,7 +23,7 @@ const HomePage = () => {
         <h5>Utama</h5>
         <div className="wrapping-message">
           <div>
-            <img className="profile-main" src="/profile.png" />
+            <img className="profile-main" src="/profile.png" alt="icon" />
           </div>
           <div className="description-main">
             <h2>Social</h2>
@@ -33,7 +33,7 @@ const HomePage = () => {
         </div>
         <div className="wrapping-message">
           <div>
-            <img className="profile-main" src="/profile.png" />
+            <img className="profile-main" src="/profile.png" alt="icon" />
           </div>
           <div className="description-main">
             <Link href="message">
@@ -43,7 +43,140 @@ const HomePage = () => {
                 </h2>
                 <p>
                   Hallo apa kabar alex? apa kah kamu berada di...{" "}
-                  <img className="btn-header" src="/star.png" />
+                  <img className="btn-header" src="/star.png" alt="icon" />
+                </p>
+              </a>
+            </Link>
+          </div>
+        </div>
+
+        <div className="wrapping-message">
+          <div>
+            <img className="profile-main" src="/profile.png" alt="icon" />
+          </div>
+          <div className="description-main">
+            <Link href="message">
+              <a>
+                <h2>
+                  Alex<h6>22 Sep</h6>
+                </h2>
+                <p>
+                  Hallo apa kabar alex? apa kah kamu berada di...{" "}
+                  <img className="btn-header" src="/star.png" alt="icon" />
+                </p>
+              </a>
+            </Link>
+          </div>
+        </div>
+
+        <div className="wrapping-message">
+          <div>
+            <img className="profile-main" src="/profile.png" alt="icon" />
+          </div>
+          <div className="description-main">
+            <Link href="message">
+              <a>
+                <h2>
+                  Alex<h6>22 Sep</h6>
+                </h2>
+                <p>
+                  Hallo apa kabar alex? apa kah kamu berada di...{" "}
+                  <img className="btn-header" src="/star.png" alt="icon" />
+                </p>
+              </a>
+            </Link>
+          </div>
+        </div>
+
+        <div className="wrapping-message">
+          <div>
+            <img className="profile-main" src="/profile.png" alt="icon" />
+          </div>
+          <div className="description-main">
+            <Link href="message">
+              <a>
+                <h2>
+                  Alex<h6>22 Sep</h6>
+                </h2>
+                <p>
+                  Hallo apa kabar alex? apa kah kamu berada di...
+                  <img className="btn-header" src="/star.png" alt="icon" />
+                </p>
+              </a>
+            </Link>
+          </div>
+        </div>
+
+        <div className="wrapping-message">
+          <div>
+            <img className="profile-main" src="/profile.png" alt="icon" />
+          </div>
+          <div className="description-main">
+            <Link href="message">
+              <a>
+                <h2>
+                  Alex<h6>22 Sep</h6>
+                </h2>
+                <p>
+                  Hallo apa kabar alex? apa kah kamu berada di...
+                  <img className="btn-header" src="/star.png" alt="icon" />
+                </p>
+              </a>
+            </Link>
+          </div>
+        </div>
+
+        <div className="wrapping-message">
+          <div>
+            <img className="profile-main" src="/profile.png" alt="icon" />
+          </div>
+          <div className="description-main">
+            <Link href="message">
+              <a>
+                <h2>
+                  Alex<h6>22 Sep</h6>
+                </h2>
+                <p>
+                  Hallo apa kabar alex? apa kah kamu berada di...{" "}
+                  <img className="btn-header" src="/star.png" alt="icon" />
+                </p>
+              </a>
+            </Link>
+          </div>
+        </div>
+
+        <div className="wrapping-message">
+          <div>
+            <img className="profile-main" src="/profile.png" alt="icon" />
+          </div>
+          <div className="description-main">
+            <Link href="message">
+              <a>
+                <h2>
+                  Alex<h6>22 Sep</h6>
+                </h2>
+                <p>
+                  Hallo apa kabar alex? apa kah kamu berada di...{" "}
+                  <img className="btn-header" src="/star.png" alt="icon" />
+                </p>
+              </a>
+            </Link>
+          </div>
+        </div>
+
+        <div className="wrapping-message">
+          <div>
+            <img className="profile-main" src="/profile.png" alt="icon" />
+          </div>
+          <div className="description-main">
+            <Link href="message">
+              <a>
+                <h2>
+                  Alex<h6>22 Sep</h6>
+                </h2>
+                <p>
+                  Hallo apa kabar alex? apa kah kamu berada di...{" "}
+                  <img className="btn-header" src="/star.png" alt="icon" />
                 </p>
               </a>
             </Link>
@@ -61,141 +194,8 @@ const HomePage = () => {
                   Alex<h6>22 Sep</h6>
                 </h2>
                 <p>
-                  Hallo apa kabar alex? apa kah kamu berada di...{" "}
-                  <img className="btn-header" src="/star.png" />
-                </p>
-              </a>
-            </Link>
-          </div>
-        </div>
-
-        <div className="wrapping-message">
-          <div>
-            <img className="profile-main" src="/profile.png" />
-          </div>
-          <div className="description-main">
-            <Link href="message">
-              <a>
-                <h2>
-                  Alex<h6>22 Sep</h6>
-                </h2>
-                <p>
-                  Hallo apa kabar alex? apa kah kamu berada di...{" "}
-                  <img className="btn-header" src="/star.png" />
-                </p>
-              </a>
-            </Link>
-          </div>
-        </div>
-
-        <div className="wrapping-message">
-          <div>
-            <img className="profile-main" src="/profile.png" />
-          </div>
-          <div className="description-main">
-            <Link href="message">
-              <a>
-                <h2>
-                  Alex<h6>22 Sep</h6>
-                </h2>
-                <p>
-                  Hallo apa kabar alex? apa kah kamu berada di...{" "}
-                  <img className="btn-header" src="/star.png" />
-                </p>
-              </a>
-            </Link>
-          </div>
-        </div>
-
-        <div className="wrapping-message">
-          <div>
-            <img className="profile-main" src="/profile.png" />
-          </div>
-          <div className="description-main">
-            <Link href="message">
-              <a>
-                <h2>
-                  Alex<h6>22 Sep</h6>
-                </h2>
-                <p>
-                  Hallo apa kabar alex? apa kah kamu berada di...{" "}
-                  <img className="btn-header" src="/star.png" />
-                </p>
-              </a>
-            </Link>
-          </div>
-        </div>
-
-        <div className="wrapping-message">
-          <div>
-            <img className="profile-main" src="/profile.png" />
-          </div>
-          <div className="description-main">
-            <Link href="message">
-              <a>
-                <h2>
-                  Alex<h6>22 Sep</h6>
-                </h2>
-                <p>
-                  Hallo apa kabar alex? apa kah kamu berada di...{" "}
-                  <img className="btn-header" src="/star.png" />
-                </p>
-              </a>
-            </Link>
-          </div>
-        </div>
-
-        <div className="wrapping-message">
-          <div>
-            <img className="profile-main" src="/profile.png" />
-          </div>
-          <div className="description-main">
-            <Link href="message">
-              <a>
-                <h2>
-                  Alex<h6>22 Sep</h6>
-                </h2>
-                <p>
-                  Hallo apa kabar alex? apa kah kamu berada di...{" "}
-                  <img className="btn-header" src="/star.png" />
-                </p>
-              </a>
-            </Link>
-          </div>
-        </div>
-
-        <div className="wrapping-message">
-          <div>
-            <img className="profile-main" src="/profile.png" />
-          </div>
-          <div className="description-main">
-            <Link href="message">
-              <a>
-                <h2>
-                  Alex<h6>22 Sep</h6>
-                </h2>
-                <p>
-                  Hallo apa kabar alex? apa kah kamu berada di...{" "}
-                  <img className="btn-header" src="/star.png" />
-                </p>
-              </a>
-            </Link>
-          </div>
-        </div>
-
-        <div className="wrapping-message">
-          <div>
-            <img className="profile-main" src="/profile.png" />
-          </div>
-          <div className="description-main">
-            <Link href="message">
-              <a>
-                <h2>
-                  Alex<h6>22 Sep</h6>
-                </h2>
-                <p>
-                  Hallo apa kabar alex? apa kah kamu berada di...{" "}
-                  <img className="btn-header" src="/star.png" />
+                  Hallo apa kabar alex? apa kah kamu berada di...
+                  <img className="btn-header" src="/star.png" alt="icon" />
                 </p>
               </a>
             </Link>

@@ -6,14 +6,14 @@ const AkunPage = () => {
       <div className="header-akun">
         <Link href="/">
           <a>
-            <img className="btn-cancel" src="/cancel.png" />
+            <img className="btn-cancel" src="/cancel.png" alt="icon" />
           </a>
         </Link>
-        <img className="brand" src="/google.png" />
+        <img className="brand" src="/google.png" alt="icon" />
       </div>
       <div className="wrapping-profile">
         <div className="account">
-          <img src="/profile.png" />
+          <img src="/profile.png" alt="icon"/>
           <div className="description-akun">
             <h4>Sumanto</h4>
             <p>
@@ -30,7 +30,7 @@ const AkunPage = () => {
 
       <div className="wrapping-profile">
         <div className="account">
-          <img src="/profile.png" />
+          <img src="/profile.png" alt="icon"/>
           <div className="description-akun">
             <h4>Sumanto</h4>
             <p>
@@ -41,7 +41,7 @@ const AkunPage = () => {
       </div>
       <div className="wrapping-profile">
         <div className="account">
-          <img src="/profile.png" />
+          <img src="/profile.png" alt="icon"/>
           <div className="description-akun">
             <h4>Sumanto</h4>
             <p>
@@ -52,7 +52,7 @@ const AkunPage = () => {
       </div>
       <div className="wrapping-profile">
         <div className="account">
-          <img src="/profile.png" />
+          <img src="/profile.png" alt="icon"/>
           <div className="description-akun">
             <h4>Sumanto</h4>
             <p>
@@ -62,7 +62,7 @@ const AkunPage = () => {
         </div>
       </div><div className="wrapping-profile">
         <div className="account">
-          <img src="/profile.png" />
+          <img src="/profile.png" alt="icon"/>
           <div className="description-akun">
             <h4>Sumanto</h4>
             <p>
