@@ -23,7 +23,7 @@ const MessagePage = () => {
       <div>
         <div className="heading-message">
           <h3>
-            Tugas bar : "KD 3.3. SEJARAH HAKI DI INDONESIA"
+            Tugas bar : KD 3.3. SEJARAH HAKI DI INDONESIA
             <span>Kotak Masuk</span>
           </h3>
           <button>
@@ -78,8 +78,8 @@ const MessagePage = () => {
               <h3>KD 3.3. SEJARAH HAKI DI INDONESIA</h3>
               <p>
                 Silahkan pelajari KD 3.3. Sejarah HAKI di Indonesia, pada google
-                site, kemudian buatlah kliping tentang " Hukum Dalam Pembajakan
-                "
+                site, kemudian buatlah kliping tentang Hukum Dalam Pembajakan
+                
               </p>
               <div className="description-main-message">
                 <p>
