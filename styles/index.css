@@ -1,0 +1,418 @@
+.body {
+  padding: 20px 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* HEADER */
+
+.header {
+  margin: 0;
+}
+
+.header form {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(241, 241, 241);
+  border-radius: 50px;
+}
+
+.btn-header {
+  width: auto;
+  height: 20px;
+  /* margin: 10px; */
+  padding-left: 10px;
+}
+
+button {
+  border: none;
+}
+
+.profile-header {
+  width: auto;
+  height: 40px;
+  margin: 10px;
+}
+
+.header input {
+  border: none;
+  background-color: transparent;
+  padding: 10px 10px;
+  width: 100%;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+/* END HEADER */
+
+/* MAIN */
+
+.main {
+  margin: 0;
+}
+
+.wrapping-message {
+  display: grid;
+  grid-template-columns: 0.2fr 1fr;
+  padding: 10px 0px;
+}
+
+.profile-main {
+  width: auto;
+  height: 50px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.description-main {
+  display: block;
+}
+
+.description-main h2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px;
+  font-size: 16px;
+}
+
+.description-main h6 {
+  margin: 0px;
+  font-size: 12px;
+}
+
+.description-main p {
+  margin: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+
+/* END HEADER */
+
+/* AKUN */
+
+.akun {
+  padding: 0;
+  width: auto;
+  height: 100vh;
+}
+
+.header-akun {
+  padding: 30px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-cancel {
+  width: auto;
+  height: 14px;
+}
+
+.brand {
+  width: auto;
+  height: 25px;
+  padding-right: 40%;
+}
+
+.wrapping-profile {
+  padding: 10px 40px;
+}
+
+.account {
+  display: grid;
+  grid-template-columns: 0.2fr 1fr;
+}
+
+.account img {
+  height: 36px;
+  width: auto;
+  margin: auto 0;
+}
+
+.description-akun {
+  display: block;
+  padding: 0px;
+}
+
+.description-akun h4 {
+  font-weight: 500;
+  font-size: 14px;
+  margin: 0;
+}
+
+.description-akun p {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: rgb(141, 141, 141);
+}
+
+.kelola-akun {
+  padding: 0px;
+  border: 1px solid rgb(180, 180, 180);
+  margin: 30px 100px;
+  border-radius: 50px;
+}
+
+.kelola-akun h3 {
+  margin: 0px;
+  padding: 6px 0px;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: center;
+}
+
+hr {
+  border: 1px solid rgb(219, 219, 219);
+}
+
+/* END AKUN */
+
+/* MESSAGE */
+
+.logo-message {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-back {
+  height: 26px;
+
+  margin: 10px 0px;
+  align-items: center;
+}
+
+.btn-feature {
+  height: 26px;
+  padding: 0px 10px;
+  margin: 10px 0px;
+  align-items: center;
+}
+
+.heading-message {
+  display: flex;
+  align-items: center;
+}
+
+.heading-message h3 {
+  font-weight: 100;
+  font-size: 20px;
+  margin: 20px 6px;
+  padding-right: 3 0px;
+}
+
+.heading-message h3 span {
+  font-size: 11px;
+  background-color: rgb(243, 243, 243);
+  border-radius: 4px;
+  padding: 2px 8px;
+  margin: 0px 5px;
+}
+
+.heading-message button {
+  background: none;
+  padding: 0;
+}
+
+.heading-message button img {
+  height: 20px;
+  margin: 0px 4px;
+}
+
+/* SENDER */
+
+.sender {
+  display: flex;
+  align-items: center;
+}
+
+.profile-sender {
+  height: 42px;
+  margin: 0px 14px 0px 8px;
+}
+
+.sender h5 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.sender h5 span {
+  font-weight: 100;
+  font-size: 12px;
+  padding: 0px 10px;
+}
+
+.sender p {
+  margin: 5px 0px;
+  font-size: 11px;
+}
+
+.sender button {
+  background: none;
+}
+
+.sender button img {
+  height: 20px;
+}
+
+/* END SENDER */
+
+.content-message {
+  padding: 0;
+}
+
+.content-message img {
+  width: 40%;
+}
+
+.wrapping-content-main {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin: 42px;
+}
+
+.wrapping-content-main img {
+  padding: 0px;
+}
+
+.wrapping-content-main .logo-gcr {
+  height: 23px;
+  width: auto;
+}
+
+.wrapping-content-main .gcr {
+  height: 38px;
+  width: auto;
+  padding-left: 16px;
+}
+
+.description-message {
+  margin: 42px;
+}
+
+.description-message p {
+  margin: 0;
+  padding: 2px 0px;
+  /* font-size: 12px; */
+  color: rgb(136, 136, 136);
+}
+
+.description-message p span {
+  color: #2596be;
+}
+
+.main-message {
+  margin: 42px;
+  padding: 20px;
+  border: 1px solid rgb(218, 218, 218);
+  display: grid;
+  grid-template-columns: 0.3fr 1fr;
+  grid-template-rows: 100%;
+  border-radius: 8px;
+}
+
+.main-message img {
+  height: 38px;
+  width: auto;
+  margin-top: 20px;
+}
+
+.heading-main-message {
+  padding: 0;
+}
+
+.heading-main-message h5 {
+  font-weight: 100;
+  margin-bottom: 4px;
+  /* font-size: 12px; */
+}
+
+.heading-main-message h3 {
+  font-weight: 500;
+  margin: 0;
+}
+
+.heading-main-message p {
+  color: rgb(149, 149, 149);
+}
+
+.description-main-message {
+  padding: 0;
+  padding-top: 40px;
+}
+
+.description-main-message p {
+  margin: 50px 0px;
+  color: rgb(149, 149, 149);
+}
+
+.description-main-message-bottom {
+  padding: 0;
+}
+
+.description-main-message-bottom button {
+  padding: 8px 20px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  background: none;
+  border: 1px solid rgb(218, 218, 218);
+  color: #2596be;
+}
+
+.description-main-message-bottom p {
+  margin: 16px 0px;
+  color: rgb(149, 149, 149);
+}
+
+.main-bottom-message {
+  margin: 5px 42px;
+}
+
+.main-bottom-message img {
+  width: auto;
+  height: 26px;
+}
+
+.main-bottom-message p {
+  margin: 0;
+  color: rgb(204, 204, 204);
+}
+
+.message-button {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.message-button button {
+  margin: 0px 20px;
+  width: 100px;
+  height: 110px;
+  background: none;
+  border-radius: 15px;
+  border: 1px solid grey;
+  padding: 10px 15px;
+}
+
+.message-button button p {
+  margin: 0;
+}
+
+.message-button button img {
+  width: auto;
+  height: 50px;
+}
+
+/* END MESSAGE */
