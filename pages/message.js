@@ -5,16 +5,17 @@ const MessagePage = () => {
     <div className="body">
       <div className="logo-message">
         <Link href="/">
-          <img className="btn-back" src="/left.png" />
+          <img className="btn-back" src="/left.png" alt="icon"/>
         </Link>
         <div>
-          <img className="btn-feature" src="/archive.png" />
-          <img className="btn-feature" src="/trash.png" />
-          <img className="btn-feature" src="/envelope.png" />
+          <img className="btn-feature" src="/archive.png" alt="icon"/>
+          <img className="btn-feature" src="/trash.png" alt="icon"/>
+          <img className="btn-feature" src="/envelope.png" alt="icon"/>
           <img
             style={{ paddingRight: "0px" }}
             className="btn-feature"
             src="/dots.png"
+            alt="icon"
           />
         </div>
       </div>
@@ -26,7 +27,7 @@ const MessagePage = () => {
             <span>Kotak Masuk</span>
           </h3>
           <button>
-            <img src="/star.png" />
+            <img src="/star.png" alt="icon"/>
           </button>
         </div>
       </div>
@@ -34,7 +35,7 @@ const MessagePage = () => {
       <div>
         <div className="sender">
           <div>
-            <img className="profile-sender" src="/profile.png" />
+            <img className="profile-sender" src="/profile.png" alt="icon"/>
           </div>
           <div>
             <h5>
@@ -43,8 +44,8 @@ const MessagePage = () => {
             <p>Kepada saya</p>
           </div>
           <button>
-            <img src="/undo.png" />
-            <img src="/dots.png" />
+            <img src="/undo.png" alt="icon"/>
+            <img src="/dots.png" alt="icon"/>
           </button>
         </div>
       </div>
@@ -52,10 +53,10 @@ const MessagePage = () => {
       <div className="content-message">
         <div className="wrapping-content-main">
           <div>
-            <img className="logo-gcr" src="/logo-gcr.png" />
+            <img className="logo-gcr" src="/logo-gcr.png" alt="icon"/>
           </div>
           <div>
-            <img className="gcr" src="/gcr.png" />
+            <img className="gcr" src="/gcr.png" alt="icon"/>
           </div>
         </div>
 
@@ -70,7 +71,7 @@ const MessagePage = () => {
         <div>
           <div className="main-message">
             <div>
-              <img src="/profile.png" />
+              <img src="/profile.png" alt="icon"/>
             </div>
             <div className="heading-main-message">
               <h5>TUGAS BARU</h5>
@@ -105,7 +106,7 @@ const MessagePage = () => {
             </div>
           </div>
           <div className="main-bottom-message">
-            <img src="/google2.png" />
+            <img src="/google2.png" alt="icon"/>
             <p>
               Google LLC 1600 Amphitheatre Parkway, Mountain View, CA 94043,
               Amerika Serikat Jika Anda tidak ingin menerima email dari Kelas,
@@ -115,19 +116,19 @@ const MessagePage = () => {
           <div className="message-button">
             <div>
               <button>
-                <img src="/undo.png" />
+                <img src="/undo.png" alt="icon"/>
                 <p>Balas</p>
               </button>
             </div>
             <div>
               <button>
-                <img src="/undo-all.png" />
+                <img src="/undo-all.png" alt="icon"/>
                 <p>Balas ke semua</p>
               </button>
             </div>
             <div>
               <button>
-                <img src="/redo.png" />
+                <img src="/redo.png" alt="icon"/>
                 <p>Teruskan</p>
               </button>
             </div>
